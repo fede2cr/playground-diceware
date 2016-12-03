@@ -12,7 +12,8 @@ The project will use a word list, and the random() funcion to emulate a dice, an
 ## Goals
 
 - [x] Convert a Diceware wordlist to JSON
-- [ ] Upload a Diceware wordlist, initially to an ESP8266 and later or to the (in development by Adafruit) Playground with SAMD21, and convert to array
+- [x] Upload a Diceware wordlist, initially to an ESP8266 and later or to the (in development by Adafruit) Playground with SAMD21. With the ESP8266 and the ampy-adafruit command it took slightly less than 5 minutes to upload the JSON file.
+- [ ] Convert Json data to array
 - [ ] Use the leds as "dice" indicator
 - [ ] Use randomize() properly
 - [ ] Generate a password and upload it in a password vault
